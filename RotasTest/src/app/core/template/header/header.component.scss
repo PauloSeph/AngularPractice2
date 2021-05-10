@@ -1,0 +1,27 @@
+$tamanho: 100%;
+
+.container {
+  width: $tamanho;
+  height: $tamanho;
+  display: flex;
+  flex-wrap: nowrap;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.24);
+  align-items: center;
+}
+
+.item1 {
+  width: 10%;
+  height: $tamanho;
+  color: rgb(253, 253, 253);
+  background-color: rgb(209, 42, 75);
+  text-decoration: none;
+  padding-right: 1px;
+  text-align: center;
+  border: none;
+  font-size: 1.3em;
+}
+
+.item1:hover{
+  background-color: rgba(175, 33, 61, 0.8);
+
+}
